@@ -1,12 +1,10 @@
-[WORK IN PROGRESS]
-
-Collection of my favourite bash scripts and aliases. Suggestions welcome!
-
-## git scripts
-.
+Evolving collection of my favourite bash shortcuts. Suggestions welcome!
 
 ## aliases
 .
 
-## other scripts
+## git
+.
+
+## other
 .
