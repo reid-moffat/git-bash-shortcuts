@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Creates a branch off of this branch and pushes it to the remote (includes error checking)
+#   Parameter: The name of the branch to be created
 function create-branch() {
     if [[ ! -d .git ]]; then
         echo "Error: you are not in a git repo" &&
