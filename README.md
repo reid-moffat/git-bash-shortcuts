@@ -1,10 +1,11 @@
-Evolving collection of my favourite bash shortcuts. Suggestions welcome!
-
-## aliases
-.
+# Bash Shortcuts
+An evolving collection of my favourite bash scripts and shortcuts to increase productivity and consistency
 
 ## git
-.
+- .
 
-## other
-.
+## Aliases
+- .
+
+## Other
+- .
