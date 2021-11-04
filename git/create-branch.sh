@@ -14,6 +14,6 @@ function create-branch() {
     fi
 
     git pull &&
-        git branch -d "$1" &&
+        git checkout -d "$1" &&
         git push origin -u "$1"
 }
