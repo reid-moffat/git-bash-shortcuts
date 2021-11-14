@@ -17,3 +17,4 @@ An evolving collection of my favourite bash scripts and shortcuts to increase pr
 
 ## Other
 - [edit-profile](https://github.com/reid-moffat/bash-shortcuts/blob/main/other/edit-profile.sh): Easily edit .bash_profile
+- [custom-prompt](https://github.com/reid-moffat/bash-shortcuts/blob/main/other/custom-prompt): Makes your prompt more useful and cleaner
