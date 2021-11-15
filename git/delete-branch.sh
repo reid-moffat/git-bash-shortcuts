@@ -20,22 +20,6 @@ function delete-branch() {
             git checkout main
     fi
 
-    function delete-branch() {
-    if [[ ! -d .git ]]; then
-        echo "Error: you are not in a git repo root" &&
-            return
-    fi
-
-    if [[ "$#" -ne 1 && "$#" -ne 2 ]]; then
-        echo "Error: you must supply the branch name and optionally the remote name (origin by default)" &&
-            return
-    fi
-
-    if [[ $1 == $(git branch --show-current) ]]; then
-        echo "You are tyring to delete the current branch. Switching to main..." &&
-            git checkout main
-    fi
-
     # Delete local branch
     git branch -D "$1"
 
