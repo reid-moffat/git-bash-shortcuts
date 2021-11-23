@@ -8,6 +8,7 @@ An evolving collection of my favourite bash scripts and shortcuts to increase pr
 - [auto-git-fetch](https://github.com/reid-moffat/bash-shortcuts/blob/main/git/auto-git-fetch.sh): Automatically fetch git updates when you enter a repository
 - [build-react-site](https://github.com/reid-moffat/bash-shortcuts/blob/main/git/build-react-site.sh): Fully builds a React site with yarn and github pages
 - [create-branch](https://github.com/reid-moffat/bash-shortcuts/blob/main/git/create-branch.sh): Creates and pushes a new branch
+- [refresh-branches](https://github.com/reid-moffat/bash-shortcuts/blob/main/git/refresh-branches.sh): Refreshes the list of branches on your local machine
 - [delete-branch](https://github.com/reid-moffat/bash-shortcuts/blob/main/git/delete-branch.sh): Deletes a branch locally and remotely
 - [gitignore-refresh](https://github.com/reid-moffat/bash-shortcuts/blob/main/git/gitignore-refresh.sh): Refreshes files in your repo after a .gitignore change
 - [in-git-repo](https://github.com/reid-moffat/bash-shortcuts/blob/main/git/in-git-repo.sh): Checks if you are in a git repository
