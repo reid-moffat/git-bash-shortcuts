@@ -1,7 +1,10 @@
 # Bash Shortcuts
-An evolving collection of my favourite bash scripts and shortcuts to increase productivity and consistency
+An evolving collection of my favourite bash scripts and shortcuts for consistency and efficiency
 
-*Note: These scripts have been run using [Git Bash](https://git-scm.com/downloads) my Windows 10 environment, **these scripts may work differently depending on your configurations. Make sure to read all comments**
+Notes/tips:
+* Always read the comments- don't just copy and paste since some info may need to be filled in or edited depending on your environment
+* These scripts have been run using [Git Bash](https://git-scm.com/downloads) on my Windows 10 environment (you may see different results or ways to do these scripts- for example, I don't use ```sudo```)
+* You can add these to your bash profile for ease of use
 
 ## git
 - [git-send](https://github.com/reid-moffat/bash-shortcuts/blob/main/git/git-send.sh): Add, commit and push in one line
