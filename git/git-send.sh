@@ -15,6 +15,7 @@ function git-send() {
     fi
 
     # If the branch requires a pull or is diverged, your changes will not be pushed
-    git commit -am "$1" &&
+    git add . &&
+        git commit -am "$1" &&
         git push
 }
