@@ -14,8 +14,7 @@ function git-send() {
             return
     fi
 
-    git fetch &&
-        git add . &&
-        git commit -am "$1" &&
+    # If the branch requires a pull or is diverged, your changes will not be pushed
+    git commit -am "$1" &&
         git push
 }
