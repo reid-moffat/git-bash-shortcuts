@@ -19,7 +19,7 @@ Notes/tips:
 
 ## Aliases
 - [cli-navigation](https://github.com/reid-moffat/bash-shortcuts/blob/main/aliases/cli-navigation.sh): Navigate the command line quicker
-- [misc](https://github.com/reid-moffat/bash-shortcuts/blob/main/aliases/misc.sh): Miscellaneous aliases
+- [bash-reload](https://github.com/reid-moffat/bash-shortcuts/blob/main/aliases/bash-reload.sh): Miscellaneous aliases
 
 ## Other
 - [edit-profile](https://github.com/reid-moffat/bash-shortcuts/blob/main/other/edit-profile.sh): Easily edit .bash_profile
