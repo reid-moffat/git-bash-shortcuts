@@ -12,6 +12,7 @@ Notes/tips:
 - [git-send](https://github.com/reid-moffat/bash-shortcuts/blob/main/git/git-send.sh): Add, commit and push in one line :star:
 - [create-branch](https://github.com/reid-moffat/bash-shortcuts/blob/main/git/create-branch.sh): Creates and pushes a new branch to the remote :star:
 - [auto-git-fetch](https://github.com/reid-moffat/bash-shortcuts/blob/main/git/auto-git-fetch.sh): Automatically fetch git updates when you enter a repository
+- [after-pr](https://github.com/reid-moffat/bash-shortcuts/blob/main/git/after-pr.sh) Refresh local git data after making a PR to main
 - [refresh-branches](https://github.com/reid-moffat/bash-shortcuts/blob/main/git/refresh-branches.sh): Refreshes the list of branches on your local machine and allows for deletion
 - [delete-branch](https://github.com/reid-moffat/bash-shortcuts/blob/main/git/delete-branch.sh): Deletes a branch locally and remotely
 - [gitignore-refresh](https://github.com/reid-moffat/bash-shortcuts/blob/main/git/gitignore-refresh.sh): Refreshes files in your repo after a .gitignore change
