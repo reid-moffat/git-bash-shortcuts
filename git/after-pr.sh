@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# After you make a PR to main, this will run a few commands to refresh you local settings
+# Refreshes local git data after making a PR to main
 function after-pr() {
     if [[ ! -d .git ]]; then
         echo "Error: you are not in a git repo root" &&
