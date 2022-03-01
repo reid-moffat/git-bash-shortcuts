@@ -10,7 +10,7 @@ function refresh-branches() {
     # Refresh the list of remote branches
     git remote update origin --prune &&
 
-    # This will delete all the local branches not on the remote, so a confirmation is a good idea
+    # This will delete ALL the local branches not on the remote, potentially losing work so a confirmation message is recommended
     read -p "Do you wish to delete local branches not on the remote too ('y' to delete)? " response
     if [[ "$response" == "y" ]]; then
         git fetch -p &&
