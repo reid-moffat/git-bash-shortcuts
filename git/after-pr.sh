@@ -8,6 +8,8 @@ function after-pr() {
     fi
 
     git checkout main &&
+    echo "" &&
     git pull &&
+    echo "" &&
     refresh-branches # See https://github.com/reid-moffat/bash-shortcuts/blob/main/git/refresh-branches.sh
 }
