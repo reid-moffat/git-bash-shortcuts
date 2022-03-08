@@ -24,6 +24,6 @@ Notes/tips:
 
 ## Other
 - [edit-profile](https://github.com/reid-moffat/bash-shortcuts/blob/main/other/edit-profile.sh): Easily edit .bash_profile
-- [custom-prompt](https://github.com/reid-moffat/bash-shortcuts/blob/main/other/custom-prompt): Makes your prompt more useful and cleaner
+- [custom-prompt](https://github.com/reid-moffat/bash-shortcuts/blob/main/other/custom-prompt.sh): Makes your prompt more useful and cleaner
 
 <sub>*(Credit to [Stack Overflow](https://stackoverflow.com/) for helping me learn bash)*</sub>
