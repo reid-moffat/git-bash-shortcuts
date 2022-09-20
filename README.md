@@ -1,3 +1,5 @@
+*Note: this will be overhauled soon to fix issues, simplify shortcuts and add new ones*
+
 # Bash Shortcuts
 An evolving collection of my favourite bash scripts and shortcuts for efficiency and consistency
 
