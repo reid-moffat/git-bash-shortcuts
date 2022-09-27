@@ -1,4 +1,4 @@
-*Note: this will be overhauled soon to fix issues, simplify shortcuts and add new ones*
+*Note: there is a lot of redudant/missing info, this is in the process of being overhauled*
 
 # Bash Shortcuts
 An evolving collection of my favourite bash scripts and shortcuts for efficiency and consistency
@@ -6,9 +6,10 @@ An evolving collection of my favourite bash scripts and shortcuts for efficiency
 *:star:: Top functions/scripts/commands*
 
 Notes/tips:
-* Always read the comments- don't just copy and paste since some info may need to be filled in or edited
-* These scripts have been run using [Git Bash](https://git-scm.com/downloads) on my **Windows 10** environment; these scripts might not work as expected on your OS
-* Add these to your ```.bash_profile``` for ease of use
+* Always read the comments- **don't just copy and paste** (many commands have placeholders that need to be filled in or edited)
+* These were made and run in [Git Bash](https://git-scm.com/downloads) on my **Windows 10** environment, so I'm using more globally-friendly commands (i.e no needing to install unix commands like 'sudo' or 'tree')
+    * *Recommended: [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701?hl=en-ca&gl=ca)*
+* Add these to your ```.bash_profile``` for ease of use (see [edit-profile](https://github.com/reid-moffat/bash-shortcuts/blob/main/other/edit-profile.sh))
 
 ## git
 - [git-send](https://github.com/reid-moffat/bash-shortcuts/blob/main/git/git-send.sh): Add, commit and push in one line :star:
