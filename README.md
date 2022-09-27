@@ -29,4 +29,4 @@ Notes/tips:
 - [edit-profile](https://github.com/reid-moffat/bash-shortcuts/blob/main/other/edit-profile.sh): Easily edit .bash_profile
 - [custom-prompt](https://github.com/reid-moffat/bash-shortcuts/blob/main/other/custom-prompt.sh): Makes your prompt more useful and cleaner
 
-<sub>*(Credit to [Stack Overflow](https://stackoverflow.com/) for helping me learn bash)*</sub>
+<sub>*(Credit to [Stack Overflow](https://stackoverflow.com/) for most of this 😉)*</sub>
