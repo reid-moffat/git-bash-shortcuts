@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# It can be a good idea to set your 'username' so it can easily be accessed anywhere in bash and
+# You may have a given username for a job, or just put your name for personal use
+export USER="<your name>"
+echo -e "Welcome back, ${USER}!\n"
 
 # Opens .bash_profile in vscode to edit (must have vscode installed), making editing bash
 alias epro="code ~/.bash_profile"
