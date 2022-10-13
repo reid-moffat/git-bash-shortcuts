@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Refreshes the local list of branches based on the remote
-function refresh-branches() {
+function branch-refresh() {
     if [[ ! -d .git ]]; then
         echo "Error: you are not in a git repo root" &&
             return

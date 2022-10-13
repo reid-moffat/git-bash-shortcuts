@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 # Opens .bash_profile in vscode to edit (must have vscode installed), making editing bash
 alias epro="code ~/.bash_profile"
 
