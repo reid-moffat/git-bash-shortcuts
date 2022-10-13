@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 #
 # Profile helpers
 #
@@ -9,6 +10,7 @@ alias epro="code ~/.bash_profile"
 
 # Refreshes your bash profile so you don't have to restart your shell (note: all scripts inside will be run again)
 alias brel="source ~/.bash_profile"
+
 
 #
 # Command-line navigation
@@ -24,6 +26,10 @@ alias up2="cd ../.." # Goes up 2 directories
 
 # Prints the current working directory (e.g /c/Users/John Smith)
 alias path="pwd"
+
+# Easily go to the repository you're working on
+alias repo="cd </absolute/path/to/repository>"
+
 
 #
 # File searching and editing
