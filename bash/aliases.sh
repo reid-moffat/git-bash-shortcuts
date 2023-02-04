@@ -2,7 +2,7 @@
 
 
 #
-# Profile helpers
+# Profile helpers (note: update to .bashrc if you use that instead)
 #
 
 # Opens .bash_profile in vscode to edit (must have vscode installed), making editing your profile much quicker
@@ -53,3 +53,6 @@ alias findf="find . -iname"
 # Add your chrome .exe location to easily open links (note: must be exported, not an alias)
 # Usage: "$CHROME" "<url>"
 export CHROME="/c/Program Files/Google/Chrome/Application/chrome.exe"
+
+# If you have a virtual machine, it's likely impractical to rememebr the ip, so just make an alias to ssh to it
+alias vm="ssh <user@ip>"
