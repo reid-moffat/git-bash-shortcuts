@@ -1,6 +1,8 @@
 #!/bin/bash
 
 # Do a hard reset and pull on the current branch (with a confirmation)
+# This will remove any local files (excluding untracked) and commits,
+# setting your repo to the most recent state on the current branch you're on
 function hres() {
     REPO=$(git rev-parse --show-toplevel)
     CURRENT_BRANCH=$(git rev-parse --abbrev-ref HEAD)
