@@ -44,3 +44,12 @@ alias repo="cd </absolute/path/to/repository>"
 #   findf "foobar.cs" (finds all C# files named foobar)
 #   findf "*.sh" (* = wildcard; finds all shell script files)
 alias findf="find . -iname"
+
+
+#
+# Other
+#
+
+# Add your chrome .exe location to easily open links (note: must be exported, not an alias)
+# Usage: "$CHROME" "<url>"
+export CHROME="/c/Program Files/Google/Chrome/Application/chrome.exe"
