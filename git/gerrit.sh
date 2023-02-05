@@ -1,7 +1,8 @@
 #!/bin/bash
 
 #
-# This file is for gerrit (https://www.gerritcodereview.com/), often used instead of github in companies
+# This file is for gerrit (https://www.gerritcodereview.com/),
+# a github alterative that uses different syntax and practices with git
 #
 
 # Gerrit has a bit of a different system than github for pushing changes
