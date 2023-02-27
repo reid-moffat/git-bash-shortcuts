@@ -3,11 +3,11 @@
 # Refreshes local git data after making a PR to main
 function apr() {
     if [[ ! -d .git ]]; then
-        echo "Error: you are not in a git repo root" &&
+        echo "❌ Error: '$(pwd)' is not part of a git repo" &&
             return
     fi
 
-    git checkout main && # Replace with the brnahc you use if required
+    git checkout main && # Replace with the branch you use (if required)
     echo "" &&
     git pull &&
     echo "" &&
