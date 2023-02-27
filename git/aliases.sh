@@ -1,13 +1,17 @@
 #!/bin/bash
 
-alias gst="git status"
+#
+# You'll probably be typing the same few commands over and over for git, so why not spend 30 seconds to make a quick alias for it?
+#
+
+alias gst="git status" # I hate typing the whole thing every time, probabaly the most useful alias since it's used so much
 alias log="git log"
 alias logo="git log --oneline"
 
 alias dif="git diff"
-# If you've already committed files, you need this option
-alias sdif="git diff --staged"
-# Replace this with the main type of file(s) you're working with to ignore other filetypes
-alias csdif="git diff *.cs"
-alias scsdif="git diff --staged *.cs"
-alias addcs="git add -u *.cs && gst"
+alias sdif="git diff --staged" # For already committed files
+
+# Often you'll be working with one, or a couple, of file types; you can easily make a filter to just go through the ones you need
+alias csdif="git diff *.js *.css *.html"
+alias scsdif="git diff --staged *.js *.css *.html"
+alias addcs="git add -u *.js *.css *.html && gst" # -u flag will not add untracked files
