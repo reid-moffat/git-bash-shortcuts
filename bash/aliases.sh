@@ -5,10 +5,10 @@
 # Profile helpers (note: update to .bashrc if you use that instead)
 #
 
-# Opens .bash_profile in vscode to edit (must have vscode installed), making editing your profile much quicker
+# Opens .bash_profile in vscode to edit, making editing your profile much quicker
 alias epro="code ~/.bash_profile"
 
-# Refreshes your bash profile so you don't have to restart your shell (note: all scripts inside will be run again)
+# Refreshes your bash profile so you don't have to restart your shell after making changes (note: all bash code inside will be run again)
 alias brel="source ~/.bash_profile"
 
 

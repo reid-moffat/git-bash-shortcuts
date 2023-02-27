@@ -9,7 +9,7 @@ echo -e "Welcome back, ${USER}!\n"
 # For example, if you are working with one repository predominantly, you can always start in it
 # The example below is since my terminal would start in the root directory, switching it to the home directory
 if [[ "$PWD" == "/" ]]; then
-    cd
+    cd # You can ususally do this with whatever terminal you use's settings, but this works for any terminal
 fi
 
 # With this, opening bash in a repository will automatically fetch updates.
