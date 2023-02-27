@@ -1,15 +1,7 @@
-*Note: there is a lot of redudant/missing info, this is in the process of being overhauled*
-
 # Bash Shortcuts
-An evolving collection of my favourite bash scripts and shortcuts for efficiency and consistency
+An evolving collection of bash & git scripts & shortcuts for efficiency and consistency
 
-*:star:: Top functions/scripts/commands*
-
-Notes/tips:
-* Always read the comments- **don't just copy and paste** (many commands have placeholders that need to be filled in or edited)
-* These were made and run in [Git Bash](https://git-scm.com/downloads) on my **Windows 10** environment, so I'm using more globally-friendly commands (i.e no needing to install unix commands like 'sudo' or 'tree')
-    * *Recommended: [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701?hl=en-ca&gl=ca)*
-* Add these to your ```.bash_profile``` for ease of use (see [edit-profile](https://github.com/reid-moffat/bash-shortcuts/blob/main/other/edit-profile.sh))
+*:star:: Top shortcuts*
 
 ## git
 - [git-send](https://github.com/reid-moffat/bash-shortcuts/blob/main/git/git-send.sh): Add, commit and push in one line :star:
@@ -29,4 +21,4 @@ Notes/tips:
 - [edit-profile](https://github.com/reid-moffat/bash-shortcuts/blob/main/other/edit-profile.sh): Easily edit .bash_profile
 - [custom-prompt](https://github.com/reid-moffat/bash-shortcuts/blob/main/other/custom-prompt.sh): Makes your prompt more useful and cleaner
 
-<sub>*(Credit to [Stack Overflow](https://stackoverflow.com/) for most of this 😉)*</sub>
+<i>Note: I use [Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701?hl=en-ca&gl=ca) with [Git Bash](https://git-scm.com/downloads) (recommended), so I didn't add any unix-specific commands like 'sudo' or 'tree'. Also feel free to play around with the code, these are just suggestions! Make a PR/issue if you think something can be improved 🙂</i>
