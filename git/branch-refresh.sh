@@ -1,16 +1,16 @@
 #!/bin/bash
 
-# Refreshes the local list of branches based on the remote
-function refresh-branches() {
+# Refreshes the local list of branches based on the remote (i.e removes branches that have been deleted)
+function brefresh() {
     if [[ ! -d .git ]]; then
-        echo "Error: you are not in a git repo root" &&
+        echo "❌ Error: '$(pwd)' is not part of a git repo" &&
             return
     fi
 
     # Refresh the list of remote branches
     git remote update origin --prune &&
 
-    # This will delete ALL the local branches not on the remote, potentially losing work so a confirmation message is recommended
+    # Do a check first since this will remove branch you've created but haven't pushed yet
     read -p "Do you wish to delete local branches not on the remote too ('y' to delete)? " response
     if [[ "$response" == "y" ]]; then
         git fetch -p &&

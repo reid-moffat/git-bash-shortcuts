@@ -1,11 +1,12 @@
 #!/bin/bash
 
 # Refreshes this repository to account for any .gitignore changes
-function gitignore-refresh() {
-    ROOT=$(git rev-parse --show-prefix) &&
-        if [[ -z "$ROOT" ]]; then
-            ROOT="." # If you are in the root directory, it returns an empty string, not .
-        fi
+# Note: make sure you don't have any unpushed local changes
+function refresh-gitignore() {
+    ROOT=$(git rev-parse --show-prefix)
+    if [[ -z "$ROOT" ]]; then
+        ROOT="." # If you are in the root directory, it returns an empty string, not .
+    fi
 
     # If the cache was already cleared, git won't be able to do it again since there is no git root
     git add "$ROOT" &&

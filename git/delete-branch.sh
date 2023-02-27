@@ -4,7 +4,7 @@
 # Params:
 #   branch name
 #   remote name (origin by default)
-function delete-branch() {
+function dbranch() {
     if [[ ! -d .git ]]; then
         echo "Error: you are not in a git repo root" &&
             return
