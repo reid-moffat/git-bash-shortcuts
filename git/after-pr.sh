@@ -7,9 +7,9 @@ function apr() {
             return
     fi
 
-    git checkout main &&
+    git checkout main && # Replace with the brnahc you use if required
     echo "" &&
     git pull &&
     echo "" &&
-    refresh-branches # See https://github.com/reid-moffat/bash-shortcuts/blob/main/git/refresh-branches.sh
+    brefresh # See branch-refresh.sh in this directory
 }

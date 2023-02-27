@@ -1,6 +1,7 @@
 #!/bin/bash
 
 # Refreshes this repository to account for any .gitignore changes
+# Note: make sure you don't have any unpushed local changes
 function refresh-gitignore() {
     ROOT=$(git rev-parse --show-prefix)
     if [[ -z "$ROOT" ]]; then
