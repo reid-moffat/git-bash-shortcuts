@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Replaces text in a file in-place and verifies that it worked
+# Replaces text in a file in-place and verifies that it worked (i.e. there haven't been any breaking git changes to the file)
 # Params:
 #  1) Text to be replaced (properly escaped)
 #  2) Text to replace it with (properly escaped)
