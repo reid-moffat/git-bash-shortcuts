@@ -4,10 +4,15 @@
 # Misc. commands that may come in handy for writing scripts
 #
 
+# You can easily automatically start programs if you have teh .exe location
+#  To find it, search through your Program Files (try findf in aliases.sh with .exe)
+#  or look it up (I found the chrome .exe by just googling 'chrome exe location')
+export CHROME="/c/Program Files/Google/Chrome/Application/chrome.exe" # Note: must be exported, not an alias
+
 # The & means 'run process in the background'
-# So you can start a process such as opening a url in chrome (see aliases.sh)
+# So you can start a process such as opening a url in chrome
 # And still continue using the terminal
-"$CHROME" $url &
+"$CHROME" "https://google.com/" &
 
 # This gets the process id of the most recent background command (see above)
 # Helpful for running commands on the process you created automatically in a script
