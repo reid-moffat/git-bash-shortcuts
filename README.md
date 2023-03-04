@@ -17,7 +17,7 @@ An evolving collection of bash & git scripts & shortcuts for efficiency and cons
 
 ## Bash
 - [sed-and-verify](https://github.com/reid-moffat/git-bash-shortcuts/blob/main/bash/functions/sed-and-verify.sh): Replace & verify text in a file :star:
-- [startup](https://github.com/reid-moffat/git-bash-shortcuts/blob/main/bash/startup.sh): Some aommands to run each time you open a terminal
+- [startup](https://github.com/reid-moffat/git-bash-shortcuts/blob/main/bash/startup.sh): Some commands to run each time you open a terminal
 - [helpful-commands](https://github.com/reid-moffat/git-bash-shortcuts/blob/main/bash/helpful-commands.sh): Useful commands for building your own scripts
 - [aliases](https://github.com/reid-moffat/git-bash-shortcuts/blob/main/bash/aliases.sh): Helpful aliases for working with bash
 
