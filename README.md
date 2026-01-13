@@ -21,7 +21,8 @@ An evolving collection of bash & git scripts & shortcuts for efficiency and cons
 - [helpful-commands](https://github.com/reid-moffat/git-bash-shortcuts/blob/main/bash/helpful-commands.sh): Useful commands for building your own scripts
 - [aliases](https://github.com/reid-moffat/git-bash-shortcuts/blob/main/bash/aliases.sh): Helpful aliases for working with bash
 
-## npm
-- [helpers](https://github.com/reid-moffat/git-bash-shortcuts/blob/main/other/npm-helpers.sh): npm/pnpm helpers
+## other
+- [agents](https://github.com/reid-moffat/git-bash-shortcuts/blob/main/other/agents.sh): Claude Code helpers
+- [npm](https://github.com/reid-moffat/git-bash-shortcuts/blob/main/other/npm-helpers.sh): npm/pnpm helpers
 
 <i>Note: These are run using [Git Bash](https://git-scm.com/downloads) on Windows ([Windows Terminal](https://apps.microsoft.com/store/detail/windows-terminal/9N0DX20HK701?hl=en-ca&gl=ca)), so they don't include any Unix-specific commands like 'sudo' or 'tree'. Also feel free to play around with the code, these are just suggestions! Make a PR/issue if you think something can be improved 🙂</i>
