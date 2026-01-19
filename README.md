@@ -25,4 +25,4 @@ An evolving collection of bash & git scripts & shortcuts for efficiency and cons
 - [agents](https://github.com/reid-moffat/git-bash-shortcuts/blob/main/other/agents.sh): Claude Code helpers
 - [npm](https://github.com/reid-moffat/git-bash-shortcuts/blob/main/other/npm-helpers.sh): npm/pnpm helpers
 
-<i>Note: These are run using [Git Bash](https://git-scm.com/downloads) on Windows, so they don't include any Unix-specific commands like 'sudo' or 'tree'. Also feel free to play around with the code, these are just suggestions! Make a PR/issue if you think something can be expanded or improved 🙂</i>
+<i>Note: These are run using [Git Bash](https://git-scm.com/install/windows) on Windows, so they don't include any Unix-specific commands like 'sudo' or 'tree'. Also feel free to play around with the code, these are just suggestions! Make a PR/issue if you think something can be expanded or improved 🙂</i>
