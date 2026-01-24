@@ -8,6 +8,7 @@ An evolving collection of bash & git scripts & shortcuts for efficiency and cons
 - [create-branch](https://github.com/reid-moffat/git-bash-shortcuts/blob/main/git/create-branch.sh): Creates and pushes a new branch to the remote :star:
 - [aliases](https://github.com/reid-moffat/git-bash-shortcuts/blob/main/git/aliases.sh): Helpful git aliases
 - [hard-reset](https://github.com/reid-moffat/git-bash-shortcuts/blob/main/git/hard-reset.sh): Removes all local (tracked) changes
+- [git-amend](https://github.com/reid-moffat/git-bash-shortcuts/blob/main/git/git-amend.sh): Adds local changes, amends previous commit (no message edit), and force pushes
 - [after-pr](https://github.com/reid-moffat/git-bash-shortcuts/blob/main/git/after-pr.sh) Refresh local git data after making a PR to main
 - [branch-refresh](https://github.com/reid-moffat/git-bash-shortcuts/blob/main/git/branch-refresh.sh): Refreshes the list of branches on your local machine and allows for deletion
 - [delete-branch](https://github.com/reid-moffat/git-bash-shortcuts/blob/main/git/delete-branch.sh): Deletes a branch locally and remotely
